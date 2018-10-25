@@ -82,8 +82,7 @@
         if($result=='(  *)'){                                      
             return NULL;                                        
         } else if($result=='()'){
-            usleep(100000);
-            header("Refresh:0");
+            return NULL;
         }
         return $result;                                         
     }
@@ -94,16 +93,13 @@
                 'apiName' => 'gyoha-api',
                 'data' => array(
                     'result' => array(
-                        'class01' => result(1, $result_tt, $result_teacher, $result_subject, $day),
-                        'class02' => result(2, $result_tt, $result_teacher, $result_subject, $day),
-                        'class03' => result(3, $result_tt, $result_teacher, $result_subject, $day),
-                        'class04' => result(4, $result_tt, $result_teacher, $result_subject, $day),
-                        'class05' => result(5, $result_tt, $result_teacher, $result_subject, $day),
-                        'class06' => result(6, $result_tt, $result_teacher, $result_subject, $day),
-                        'class07' => result(7, $result_tt, $result_teacher, $result_subject, $day),
-                        'class08' => result(8, $result_tt, $result_teacher, $result_subject, $day),
-                        'class09' => result(9, $result_tt, $result_teacher, $result_subject, $day),
-                        'class10' => result(10, $result_tt, $result_teacher, $result_subject, $day)
+                        result(1, $result_tt, $result_teacher, $result_subject, $day),
+                        result(2, $result_tt, $result_teacher, $result_subject, $day),
+                        result(3, $result_tt, $result_teacher, $result_subject, $day),
+                        result(4, $result_tt, $result_teacher, $result_subject, $day),
+                        result(5, $result_tt, $result_teacher, $result_subject, $day),
+                        result(6, $result_tt, $result_teacher, $result_subject, $day),
+                        result(7, $result_tt, $result_teacher, $result_subject, $day)
                     )
                 )
             );
@@ -113,16 +109,13 @@
                 'apiName' => 'gyoha-api',
                 'data' => array(
                     'result' => array(
-                        'class01' => result(1, $result_tt, $result_teacher, $result_subject, $day),
-                        'class02' => result(2, $result_tt, $result_teacher, $result_subject, $day),
-                        'class03' => result(3, $result_tt, $result_teacher, $result_subject, $day),
-                        'class04' => result(4, $result_tt, $result_teacher, $result_subject, $day),
-                        'class05' => result(5, $result_tt, $result_teacher, $result_subject, $day),
-                        'class06' => result(6, $result_tt, $result_teacher, $result_subject, $day),
-                        'class07' => result(7, $result_tt, $result_teacher, $result_subject, $day),
-                        'class08' => result(8, $result_tt, $result_teacher, $result_subject, $day),
-                        'class09' => result(9, $result_tt, $result_teacher, $result_subject, $day),
-                        'class10' => result(10, $result_tt, $result_teacher, $result_subject, $day)
+                        result(1, $result_tt, $result_teacher, $result_subject, $day),
+                        result(2, $result_tt, $result_teacher, $result_subject, $day),
+                        result(3, $result_tt, $result_teacher, $result_subject, $day),
+                        result(4, $result_tt, $result_teacher, $result_subject, $day),
+                        result(5, $result_tt, $result_teacher, $result_subject, $day),
+                        result(6, $result_tt, $result_teacher, $result_subject, $day),
+                        result(7, $result_tt, $result_teacher, $result_subject, $day)
                     )
                 )
             );
@@ -132,16 +125,13 @@
                 'apiName' => 'gyoha-api',
                 'data' => array(
                     'result' => array(
-                        'class01' => result(1, $result_tt, $result_teacher, $result_subject, $day),
-                        'class02' => result(2, $result_tt, $result_teacher, $result_subject, $day),
-                        'class03' => result(3, $result_tt, $result_teacher, $result_subject, $day),
-                        'class04' => result(4, $result_tt, $result_teacher, $result_subject, $day),
-                        'class05' => result(5, $result_tt, $result_teacher, $result_subject, $day),
-                        'class06' => result(6, $result_tt, $result_teacher, $result_subject, $day),
-                        'class07' => result(7, $result_tt, $result_teacher, $result_subject, $day),
-                        'class08' => result(8, $result_tt, $result_teacher, $result_subject, $day),
-                        'class09' => result(9, $result_tt, $result_teacher, $result_subject, $day),
-                        'class10' => result(10, $result_tt, $result_teacher, $result_subject, $day)
+                        result(1, $result_tt, $result_teacher, $result_subject, $day),
+                        result(2, $result_tt, $result_teacher, $result_subject, $day),
+                        result(3, $result_tt, $result_teacher, $result_subject, $day),
+                        result(4, $result_tt, $result_teacher, $result_subject, $day),
+                        result(5, $result_tt, $result_teacher, $result_subject, $day),
+                        result(6, $result_tt, $result_teacher, $result_subject, $day),
+                        result(7, $result_tt, $result_teacher, $result_subject, $day)
                     )
                 )
             );
@@ -152,64 +142,49 @@
                 'data' => array(
                     'result' => array(
                         0 => array(
-                            'class01' => result(1, $result_tt, $result_teacher, $result_subject, 1),
-                            'class02' => result(2, $result_tt, $result_teacher, $result_subject, 1),
-                            'class03' => result(3, $result_tt, $result_teacher, $result_subject, 1),
-                            'class04' => result(4, $result_tt, $result_teacher, $result_subject, 1),
-                            'class05' => result(5, $result_tt, $result_teacher, $result_subject, 1),
-                            'class06' => result(6, $result_tt, $result_teacher, $result_subject, 1),
-                            'class07' => result(7, $result_tt, $result_teacher, $result_subject, 1),
-                            'class08' => result(8, $result_tt, $result_teacher, $result_subject, 1),
-                            'class09' => result(9, $result_tt, $result_teacher, $result_subject, 1),
-                            'class10' => result(10, $result_tt, $result_teacher, $result_subject, 1)
+                            result(1, $result_tt, $result_teacher, $result_subject, 1),
+                            result(2, $result_tt, $result_teacher, $result_subject, 1),
+                            result(3, $result_tt, $result_teacher, $result_subject, 1),
+                            result(4, $result_tt, $result_teacher, $result_subject, 1),
+                            result(5, $result_tt, $result_teacher, $result_subject, 1),
+                            result(6, $result_tt, $result_teacher, $result_subject, 1),
+                            result(7, $result_tt, $result_teacher, $result_subject, 1)
                         ),
                         1 => array(
-                            'class01' => result(1, $result_tt, $result_teacher, $result_subject, 2),
-                            'class02' => result(2, $result_tt, $result_teacher, $result_subject, 2),
-                            'class03' => result(3, $result_tt, $result_teacher, $result_subject, 2),
-                            'class04' => result(4, $result_tt, $result_teacher, $result_subject, 2),
-                            'class05' => result(5, $result_tt, $result_teacher, $result_subject, 2),
-                            'class06' => result(6, $result_tt, $result_teacher, $result_subject, 2),
-                            'class07' => result(7, $result_tt, $result_teacher, $result_subject, 2),
-                            'class08' => result(8, $result_tt, $result_teacher, $result_subject, 2),
-                            'class09' => result(9, $result_tt, $result_teacher, $result_subject, 2),
-                            'class10' => result(10, $result_tt, $result_teacher, $result_subject, 2)
+                            result(1, $result_tt, $result_teacher, $result_subject, 2),
+                            result(2, $result_tt, $result_teacher, $result_subject, 2),
+                            result(3, $result_tt, $result_teacher, $result_subject, 2),
+                            result(4, $result_tt, $result_teacher, $result_subject, 2),
+                            result(5, $result_tt, $result_teacher, $result_subject, 2),
+                            result(6, $result_tt, $result_teacher, $result_subject, 2),
+                            result(7, $result_tt, $result_teacher, $result_subject, 2)
                         ),
                         2 => array(
-                            'class01' => result(1, $result_tt, $result_teacher, $result_subject, 3),
-                            'class02' => result(2, $result_tt, $result_teacher, $result_subject, 3),
-                            'class03' => result(3, $result_tt, $result_teacher, $result_subject, 3),
-                            'class04' => result(4, $result_tt, $result_teacher, $result_subject, 3),
-                            'class05' => result(5, $result_tt, $result_teacher, $result_subject, 3),
-                            'class06' => result(6, $result_tt, $result_teacher, $result_subject, 3),
-                            'class07' => result(7, $result_tt, $result_teacher, $result_subject, 3),
-                            'class08' => result(8, $result_tt, $result_teacher, $result_subject, 3),
-                            'class09' => result(9, $result_tt, $result_teacher, $result_subject, 3),
-                            'class10' => result(10, $result_tt, $result_teacher, $result_subject, 3)
+                            result(1, $result_tt, $result_teacher, $result_subject, 3),
+                            result(2, $result_tt, $result_teacher, $result_subject, 3),
+                            result(3, $result_tt, $result_teacher, $result_subject, 3),
+                            result(4, $result_tt, $result_teacher, $result_subject, 3),
+                            result(5, $result_tt, $result_teacher, $result_subject, 3),
+                            result(6, $result_tt, $result_teacher, $result_subject, 3),
+                            result(7, $result_tt, $result_teacher, $result_subject, 3)
                         ),
                         3 => array(
-                            'class01' => result(1, $result_tt, $result_teacher, $result_subject, 4),
-                            'class02' => result(2, $result_tt, $result_teacher, $result_subject, 4),
-                            'class03' => result(3, $result_tt, $result_teacher, $result_subject, 4),
-                            'class04' => result(4, $result_tt, $result_teacher, $result_subject, 4),
-                            'class05' => result(5, $result_tt, $result_teacher, $result_subject, 4),
-                            'class06' => result(6, $result_tt, $result_teacher, $result_subject, 4),
-                            'class07' => result(7, $result_tt, $result_teacher, $result_subject, 4),
-                            'class08' => result(8, $result_tt, $result_teacher, $result_subject, 4),
-                            'class09' => result(9, $result_tt, $result_teacher, $result_subject, 4),
-                            'class10' => result(10, $result_tt, $result_teacher, $result_subject, 4)
+                            result(1, $result_tt, $result_teacher, $result_subject, 4),
+                            result(2, $result_tt, $result_teacher, $result_subject, 4),
+                            result(3, $result_tt, $result_teacher, $result_subject, 4),
+                            result(4, $result_tt, $result_teacher, $result_subject, 4),
+                            result(5, $result_tt, $result_teacher, $result_subject, 4),
+                            result(6, $result_tt, $result_teacher, $result_subject, 4),
+                            result(7, $result_tt, $result_teacher, $result_subject, 4)
                         ),
                         4 => array(
-                            'class01' => result(1, $result_tt, $result_teacher, $result_subject, 5),
-                            'class02' => result(2, $result_tt, $result_teacher, $result_subject, 5),
-                            'class03' => result(3, $result_tt, $result_teacher, $result_subject, 5),
-                            'class04' => result(4, $result_tt, $result_teacher, $result_subject, 5),
-                            'class05' => result(5, $result_tt, $result_teacher, $result_subject, 5),
-                            'class06' => result(6, $result_tt, $result_teacher, $result_subject, 5),
-                            'class07' => result(7, $result_tt, $result_teacher, $result_subject, 5),
-                            'class08' => result(8, $result_tt, $result_teacher, $result_subject, 5),
-                            'class09' => result(9, $result_tt, $result_teacher, $result_subject, 5),
-                            'class10' => result(10, $result_tt, $result_teacher, $result_subject, 5)
+                            result(1, $result_tt, $result_teacher, $result_subject, 5),
+                            result(2, $result_tt, $result_teacher, $result_subject, 5),
+                            result(3, $result_tt, $result_teacher, $result_subject, 5),
+                            result(4, $result_tt, $result_teacher, $result_subject, 5),
+                            result(5, $result_tt, $result_teacher, $result_subject, 5),
+                            result(6, $result_tt, $result_teacher, $result_subject, 5),
+                            result(7, $result_tt, $result_teacher, $result_subject, 5)
                         )
                     )
                 )
